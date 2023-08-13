@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "maryvidad:block/shop_stand"
+    },
+    "facing=east": {
+      "model": "maryvidad:block/shop_stand",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "maryvidad:block/shop_stand",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "maryvidad:block/shop_stand",
+      "y": 270
+    }
+  }
+}

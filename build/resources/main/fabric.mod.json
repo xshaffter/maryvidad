@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "maryvidad",
+  "version": "1.0",
+  "name": "Maryvidad",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/xshaf/Maryvidad"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/maryvidad/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.para_mada.maryvidad.client.MaryvidadClient"
+    ],
+    "main": [
+      "com.para_mada.maryvidad.Maryvidad"
+    ]
+  },
+  "mixins": [
+    "maryvidad.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}

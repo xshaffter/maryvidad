@@ -1,0 +1,26 @@
+{
+  "mappings": {
+    "com/para_mada/maryvidad/mixins/InGameHudMixin": {
+      "renderHotbar": "Lnet/minecraft/class_329;method_1759(FLnet/minecraft/class_332;)V"
+    },
+    "com/para_mada/maryvidad/mixins/LivingEntityMixin": {
+      "readCustomDataFromNbt": "Lnet/minecraft/class_1309;method_5749(Lnet/minecraft/class_2487;)V",
+      "tick": "Lnet/minecraft/class_1309;method_5773()V",
+      "tryUseTotem": "Lnet/minecraft/class_1309;method_6095(Lnet/minecraft/class_1282;)Z",
+      "writeCustomDataToNbt": "Lnet/minecraft/class_1309;method_5652(Lnet/minecraft/class_2487;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/para_mada/maryvidad/mixins/InGameHudMixin": {
+        "renderHotbar": "Lnet/minecraft/class_329;method_1759(FLnet/minecraft/class_332;)V"
+      },
+      "com/para_mada/maryvidad/mixins/LivingEntityMixin": {
+        "readCustomDataFromNbt": "Lnet/minecraft/class_1309;method_5749(Lnet/minecraft/class_2487;)V",
+        "tick": "Lnet/minecraft/class_1309;method_5773()V",
+        "tryUseTotem": "Lnet/minecraft/class_1309;method_6095(Lnet/minecraft/class_1282;)Z",
+        "writeCustomDataToNbt": "Lnet/minecraft/class_1309;method_5652(Lnet/minecraft/class_2487;)V"
+      }
+    }
+  }
+}

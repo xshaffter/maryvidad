@@ -1,0 +1,10 @@
+{
+  "fansa_music": {
+    "sounds": [
+      {
+        "name": "mary-mod:fansa_music",
+        "stream": true
+      }
+    ]
+  }
+}

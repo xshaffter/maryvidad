@@ -1,0 +1,90 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "maryvidad:item/mary_coin",
+		"particle": "maryvidad:item/mary_coin"
+	},
+	"elements": [
+		{
+			"from": [3, 8, 5],
+			"to": [13, 9, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.5, 8]},
+			"faces": {
+				"north": {"uv": [3, 5, 13, 6], "texture": "#0"},
+				"east": {"uv": [5, 3, 11, 4], "texture": "#0"},
+				"south": {"uv": [3, 10, 13, 11], "texture": "#0"},
+				"west": {"uv": [5, 12, 11, 13], "texture": "#0"},
+				"up": {"uv": [3, 5, 13, 11], "texture": "#0"},
+				"down": {"uv": [3, 5, 13, 11], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 8, 3],
+			"to": [11, 9, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.5, 8]},
+			"faces": {
+				"north": {"uv": [5, 3, 11, 4], "texture": "#0"},
+				"east": {"uv": [5, 3, 11, 4], "texture": "#0"},
+				"south": {"uv": [5, 12, 11, 13], "texture": "#0"},
+				"west": {"uv": [5, 12, 11, 13], "texture": "#0"},
+				"up": {"uv": [5, 3, 11, 13], "texture": "#0"},
+				"down": {"uv": [5, 3, 11, 13], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 8, 4],
+			"to": [12, 9, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.5, 8]},
+			"faces": {
+				"north": {"uv": [4, 4, 12, 12], "texture": "#0"},
+				"east": {"uv": [4, 4, 12, 5], "texture": "#0"},
+				"south": {"uv": [4, 11, 12, 12], "texture": "#0"},
+				"west": {"uv": [4, 4, 12, 5], "texture": "#0"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#0"},
+				"down": {"uv": [4, 11, 12, 12], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 0, -90],
+			"scale": [0.5, 1, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 0, 90],
+			"scale": [0.5, 1, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [69, 0, 53],
+			"translation": [3.75, 0.5, 0],
+			"scale": [0.5, 1, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [69, 0, 53],
+			"translation": [3.75, 0.5, 0],
+			"scale": [0.5, 1, 0.5]
+		},
+		"ground": {
+			"translation": [0, -2.5, 0],
+			"scale": [0.5, 1, 0.5]
+		},
+		"gui": {
+			"rotation": [27, -30, 0],
+			"translation": [0, -1, 0]
+		},
+		"fixed": {
+			"rotation": [-90, -180, 0],
+			"translation": [0, 0, 0.75],
+			"scale": [0.5, 1, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}
